@@ -8,12 +8,12 @@ janela = Tk()
 janela.geometry("1035x314")
 janela.configure(background='#1E1E1E')
 janela.title('Sera que fiz | ph011')
-janela.iconbitmap('img/logo.ico')
+janela.iconbitmap('Projeto\img\logo.ico')
 
 macaco = Canvas(janela,width=300, height=300, background='#1E1E1E')
 macaco.pack()
 
-img = ImageTk.PhotoImage(Image.open("img/masqueico.jpg"))
+img = ImageTk.PhotoImage(Image.open("Projeto\img\masqueico.jpg"))
 macaco.create_image(150,150,image=img)
 macaco.place(x=5,y=5)
 
