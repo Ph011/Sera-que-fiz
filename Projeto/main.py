@@ -34,7 +34,7 @@ hora = data.hour
 
 def limpezaDeTxt():
     if (hora == 19):
-        with open('fiz.txt', 'w') as limpo:
+        with open('Projeto\ok.txt', 'w') as limpo:
             limpo.truncate(0)
 
 if (hora <= 7):
@@ -50,25 +50,25 @@ caixa.place(x=650,y=50)
 
 def confirmar0():
     caixa.insert(END,'✓ '+tarefaslist[0] + horario)
-    arquivotxt = open('fiz.txt', "a")
+    arquivotxt = open('Projeto\ok.txt', "a")
     arquivotxt.write('OK! {}{}\n'.format(tarefaslist[0],horario))
     arquivotxt.close()
     print('Item 0 Adicionado no txt')
 def confirmar1():
     caixa.insert(END,'✓ '+tarefaslist[1] + horario)
-    arquivotxt = open('fiz.txt', "a")
+    arquivotxt = open('Projeto\ok.txt', "a")
     arquivotxt.write('OK! {}{}\n'.format(tarefaslist[1],horario))
     arquivotxt.close()
     print('Item 1 Adicionado no txt')
 def confirmar2():
     caixa.insert(END,'✓ '+tarefaslist[2] + horario)
-    arquivotxt = open('fiz.txt', "a")
+    arquivotxt = open('Projeto\ok.txt', "a")
     arquivotxt.write('OK! {}{}\n'.format(tarefaslist[2],horario))
     arquivotxt.close()
     print('Item 2 Adicionado no txt')
 def confirmar3():
     caixa.insert(END,'✓ '+tarefaslist[3] + horario)
-    arquivotxt = open('fiz.txt', "a")
+    arquivotxt = open('Projeto\ok.txt', "a")
     arquivotxt.write('OK! {}{}\n'.format(tarefaslist[3],horario))
     arquivotxt.close()
     print('Item 3 Adicionado no txt')
