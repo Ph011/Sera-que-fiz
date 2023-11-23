@@ -1,4 +1,4 @@
-# Sera-que-fiz
+# Sera-que-fiz 🦧❓
 Software pessoal que está em **processo de criação**
 * Esse projeto visa acompanhar tarefas diárias basicas:
    * Você poderá colocar seus afazeres e ir marcando conforme for realizando os mesmos.
